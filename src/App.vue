@@ -221,8 +221,15 @@ button {
 
 .playlist .song {
   display: block;
-  width: 100%;
   padding-top: 15px;
   text-align: left;
+  color: rgba(33, 33, 33, 0.6);
 }
+
+.playlist .playing {
+  font-weight: 700;
+  font-size: 16px;
+  color: rgba(33, 33, 33, 0.9);
+}
+
 </style>
