@@ -34,13 +34,13 @@ export default {
   data () {
     return {
       current: {},
-      index: 2,
+      index: 0,
       isPlaying: false,
       songs: [
         {
           title: 'Danse Macabre',
-          artist: 'Camille Saint-Saëns',
-          src: require('./assets/Camille Saint-Saëns - Danse Macabre.mp3')
+          artist: 'Camille Saint-Saens',
+          src: require('./assets/Camille Saint-Saens - Danse Macabre.mp3')
         },
         {
           title: 'Anitras Dance',
